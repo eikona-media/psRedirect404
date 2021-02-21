@@ -4,8 +4,10 @@ namespace ProudCommerce\Redirect404\Tests\Integration;
 
 use OxidEsales\Eshop\Core\Registry;
 use OxidEsales\Eshop\Core\Utils;
-use OxidEsales\EshopCommunity\Internal\Application\ContainerFactory;
-use OxidEsales\EshopCommunity\Internal\Common\Database\QueryBuilderFactoryInterface;
+//use OxidEsales\EshopCommunity\Internal\Application\ContainerFactory;
+use OxidEsales\EshopCommunity\Internal\Container\ContainerFactory;
+//use OxidEsales\EshopCommunity\Internal\Common\Database\QueryBuilderFactoryInterface;
+use OxidEsales\EshopCommunity\Internal\Framework\Database\QueryBuilderFactoryInterface;
 use PHPUnit\Framework\TestCase;
 use ProudCommerce\Redirect404\Application\Model\RedirectSeoCache;
 use ProudCommerce\Redirect404\Tests\Helper;
